@@ -70,9 +70,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Database1.mdf" />
-    <Content Include="App_Data\Database1_log.ldf">
-      <DependentUpon>Database1.mdf</DependentUpon>
+    <Content Include="App_Data\Project.mdf" />
+    <Content Include="App_Data\Project_log.ldf">
+      <DependentUpon>Project.mdf</DependentUpon>
     </Content>
     <Content Include="AssignmentAssistant.aspx" />
     <Content Include="AssignmentStudent.aspx" />
@@ -91,7 +91,6 @@
     <Content Include="Images.html" />
     <Content Include="index.html" />
     <Content Include="linksWEB.aspx" />
-    <Content Include="login.aspx" />
     <Content Include="logo.html" />
     <Content Include="logo2.html" />
     <Content Include="logo3.html" />
@@ -227,13 +226,6 @@
     </Compile>
     <Compile Include="linksWEB.aspx.designer.cs">
       <DependentUpon>linksWEB.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="PERSONlogin.aspx.cs">
       <DependentUpon>PERSONlogin.aspx</DependentUpon>

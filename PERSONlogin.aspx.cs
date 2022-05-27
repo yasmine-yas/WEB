@@ -19,12 +19,14 @@ namespace Regestration
         {
             // 1- create connection object
             SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|database1.mdf" ;
-           // conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\SYSTEMREGISTERATION_finalproject\\Regestration\\App_Data\\Database1.mdf;Integrated Security=True";
-        
-            //2- create sql seelect statement
+            conn.ConnectionString = "Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\Yasmin\\source\\repos\\WEB\\App_Data\\Project.mdf; Integrated Security = True";
+            // conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\SYSTEMREGISTERATION_finalproject\\Regestration\\App_Data\\Database1.mdf;Integrated Security=True";
             
-            string strSelect = "SELECT * FROM [PERSON]  "
+            //Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\Yasmin\\source\\repos\\WEB\\App_Data\\Project.mdf; Integrated Security = True
+            
+            //2- create sql seelect statement
+
+            string strSelect = "SELECT * FROM [Person]  "
             + " WHERE Username = '" + txt_UN.Text + "' AND "
             + " Password = '" + txt_PASS.Text + "'";
 
@@ -57,14 +59,14 @@ namespace Regestration
 
 
 
-                if (txt_UN.Text == "salma123")
+                if (txt_UN.Text == "Student22")
                     Response.Redirect("~/StudentHome.aspx");
                 else
-                     if (txt_UN.Text == "ahmed12341")
+                     if (txt_UN.Text == "Doctor22")
                     Response.Redirect("~/DoctorHome.aspx");
 
                 else
-                     if (txt_UN.Text == "heba11")
+                     if (txt_UN.Text == "Assistant22")
                     Response.Redirect("~/AssisstantHome.aspx");
             }
 

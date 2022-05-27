@@ -25,8 +25,9 @@ namespace Regestration
             string strINSERT = String.Format("INSERT INTO [PERSON] values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')", txt_fn.Text, txt_ln.Text, txt_e.Text, txt_UN.Text , txt_DOB.Text, RRL.SelectedValue ,  DDP.SelectedValue, txt_address.Text, txt_PASS.Text, txt_phone.Text , DDP_role.SelectedValue);
             // create sql command
             SqlCommand cmd = new SqlCommand(strINSERT, conn);
-
+            
             conn.Open();
+
             cmd.ExecuteNonQuery();
             conn.Close();
 
@@ -35,6 +36,7 @@ namespace Regestration
                 fupPic.SaveAs(Server.MapPath("userPic") +"\\" + txt_UN.Text +"jpg");
 
             lblMsg.Text = "hello";
+
 
         }
     }
