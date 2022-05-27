@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebFor2.aspx.cs" Inherits="Regestration.WebFor2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="Regestration.WebFor2" %>
 
 <!DOCTYPE html>
 

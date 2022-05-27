@@ -109,7 +109,7 @@
     <Content Include="Studentprofile.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
-    <Content Include="SignUpPerson.aspx" />
+    <Content Include="SignUp.aspx" />
     <Content Include="StudentHome.aspx" />
     <Content Include="myAccount.aspx" />
     <Content Include="StudentCourses.aspx" />
@@ -277,12 +277,12 @@
     <Compile Include="Studentprofile.aspx.designer.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SignUpPerson.aspx.cs">
-      <DependentUpon>SignUpPerson.aspx</DependentUpon>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SignUpPerson.aspx.designer.cs">
-      <DependentUpon>SignUpPerson.aspx</DependentUpon>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentHome.aspx.cs">
       <DependentUpon>StudentHome.aspx</DependentUpon>
