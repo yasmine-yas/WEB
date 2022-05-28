@@ -94,6 +94,7 @@
                 <tr>
                     <td style="vertical-align: top">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:Label ID="lblMg" runat="server" Font-Names="Arial" Font-Size="Large" Font-Underline="False"></asp:Label>
             </asp:ContentPlaceHolder>
                         <br />
                         <br />
@@ -120,7 +121,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style5">
-                       <%-- <br />
+                        <%-- <br />
                         <br />
                         <br />--%>
                          <center>

@@ -22,9 +22,24 @@ namespace Regestration
                 LastName = Request.Cookies["userInfo"].Values["LastN"];
             }
 
-            lblgMsg.Text = "welcome,  "+ username  /*+ FirstName +" "+ LastName + "*/ +"  to FUE ";
-          //  imguserpic.ImageUrl = "~/userPic/" + username + ".jpg";
+            lblgMsg.Text =( "welcome,  " + FirstName +" "+ LastName + " to FUE ");
+            //there is a problem in pictures
+            //imguserpic.ImageUrl = "~/userPic/" + username + "jpg";
             
         }
+
+        //protected void Page_Load(object sender, EventArgs e)
+        //{
+        //    string username = "";
+        // //   if (Request.Cookies["userInfo"] != null)
+        //   // {
+        //   //     username = Request.Cookies["userInfo"].Values["usern"]; // da key ele est5dmto 3ashan akhzn qemt el user name
+
+        //        lblMg.Text = ("welcome" + username + "to egypt");
+
+
+        //    //}
+        //}
+
     }
 }

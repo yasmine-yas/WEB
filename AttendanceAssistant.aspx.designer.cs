@@ -11,7 +11,7 @@ namespace Regestration
 {
 
 
-    public partial class WebForm9
+    public partial class AttendanceAssistant
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// ddlAttendance control.
+        /// ddlAAttendance control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlAttendance;
+        protected global::System.Web.UI.WebControls.DropDownList ddlAAttendance;
 
         /// <summary>
         /// SqlDataSource1 control.

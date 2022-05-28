@@ -35,6 +35,16 @@ namespace Regestration
             if (fupPic.HasFile)
                 fupPic.SaveAs(Server.MapPath("userPic") +"\\" + txt_UN.Text +"jpg");
 
+
+            HttpCookie koko = new HttpCookie("userInfo");
+            koko.Values.Add("usern", txt_UN.Text);
+            koko.Values.Add("passw", txt_PASS.Text);
+            koko.Values.Add("FirstN", txt_fn.Text);
+            koko.Values.Add("LastN", txt_ln.Text);
+
+            koko.Expires = DateTime.Now.AddDays(5);
+            Response.Cookies.Add(koko);
+
             lblMsg.Text = "hello";
 
 

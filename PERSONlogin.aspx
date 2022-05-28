@@ -22,6 +22,13 @@
             margin-left: 0px;
             margin-top: 18px;
         }
+        .auto-style7 {
+            width: 639px;
+            height: 37px;
+        }
+        .auto-style8 {
+            height: 37px;
+        }
         </style>
 </head>
 <body>
@@ -52,10 +59,10 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">
+                    <td class="auto-style7">
                     <asp:TextBox ID="txt_PASS" runat="server" BorderColor="Black" Height="27px" Width="346px" TextMode="Password"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style8"></td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>

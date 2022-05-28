@@ -47,9 +47,15 @@ namespace Regestration
                 string Fname = (string)reader.GetValue(0);
                 string Lname = (string)reader.GetValue(1);
 
+                //HttpCookie coco = new HttpCookie("userInfo");
+                //coco.Values.Add("usern" , txt_UN.Text);
+                //coco.Values.Add("password", txt_PASS.Text);
+                //coco.Expires = DateTime.Now.AddDays(5);
+                //Response.Cookies.Add(coco);
+
 
                 HttpCookie coco = new HttpCookie("userInfo");
-                coco.Values.Add("usern",txt_UN.Text);
+                coco.Values.Add("usern", txt_UN.Text);
                 coco.Values.Add("passw", txt_PASS.Text);
                 coco.Values.Add("FirstN", Fname);
                 coco.Values.Add("LastN", Lname);

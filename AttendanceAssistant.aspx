@@ -1,29 +1,29 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/DoctorMaster.Master" AutoEventWireup="true" CodeBehind="AttendanceSheet.aspx.cs" Inherits="Regestration.WebForm9" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AssisstantMaster.Master" AutoEventWireup="true" CodeBehind="AttendanceAssistant.aspx.cs" Inherits="Regestration.AttendanceAssistant" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .auto-style6 {
-            width: 200px;
+        .auto-style4 {
+            width: 248px;
         }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
     <br />
-    <table class="auto-style4">
+    <table class="auto-style1">
         <tr>
-            <td class="auto-style6">
+            <td class="auto-style4">
                 <asp:Label ID="Label1" runat="server" Font-Names="Arial Black" Font-Size="Medium" ForeColor="#003366" Text="Select Day"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="ddlAttendance" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Days" DataValueField="Days" Font-Names="Arial" Font-Size="Medium" ForeColor="#003366">
+                <br />
+                <asp:DropDownList ID="ddlAAttendance" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Days" DataValueField="Days" Font-Names="Arial" Font-Size="Medium" ForeColor="#003366">
                 </asp:DropDownList>
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Project.mdf;Integrated Security=True" ProviderName="System.Data.SqlClient" SelectCommand="SELECT DISTINCT [Days] FROM [Attendance]"></asp:SqlDataSource>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Project.mdf;Integrated Security=True" ProviderName="System.Data.SqlClient" SelectCommand="SELECT DISTINCT [Days] FROM [AssistantAttendance]"></asp:SqlDataSource>
+                <br />
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <br />
-                <br />
                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="ID" DataSourceID="SqlDataSource2" Font-Names="Arial" Font-Size="Medium" ForeColor="#333333" GridLines="None">
                     <AlternatingRowStyle BackColor="White" />
                     <Columns>
@@ -44,25 +44,11 @@
                     <SortedDescendingCellStyle BackColor="#E9EBEF" />
                     <SortedDescendingHeaderStyle BackColor="#4870BE" />
                 </asp:GridView>
-                <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Project.mdf;Integrated Security=True" DeleteCommand="DELETE FROM [Attendance] WHERE [ID] = @ID" InsertCommand="INSERT INTO [Attendance] ([Days], [ID], [UserName]) VALUES (@Days, @ID, @UserName)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [Days], [ID], [UserName] FROM [Attendance] WHERE ([Days] = @Days)" UpdateCommand="UPDATE [Attendance] SET [Days] = @Days, [UserName] = @UserName WHERE [ID] = @ID">
-                    <DeleteParameters>
-                        <asp:Parameter Name="ID" Type="Int32" />
-                    </DeleteParameters>
-                    <InsertParameters>
-                        <asp:Parameter Name="Days" Type="String" />
-                        <asp:Parameter Name="ID" Type="Int32" />
-                        <asp:Parameter Name="UserName" Type="String" />
-                    </InsertParameters>
+                <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Project.mdf;Integrated Security=True" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [Days], [ID], [UserName] FROM [AssistantAttendance] WHERE ([Days] = @Days)">
                     <SelectParameters>
-                        <asp:ControlParameter ControlID="ddlAttendance" Name="Days" PropertyName="SelectedValue" Type="String" />
+                        <asp:ControlParameter ControlID="ddlAAttendance" Name="Days" PropertyName="SelectedValue" Type="String" />
                     </SelectParameters>
-                    <UpdateParameters>
-                        <asp:Parameter Name="Days" Type="String" />
-                        <asp:Parameter Name="UserName" Type="String" />
-                        <asp:Parameter Name="ID" Type="Int32" />
-                    </UpdateParameters>
                 </asp:SqlDataSource>
-                <br />
             </td>
         </tr>
     </table>
