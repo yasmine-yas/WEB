@@ -78,6 +78,7 @@
     <Content Include="AssignmentAssistant.aspx" />
     <Content Include="AssignmentStudent.aspx" />
     <Content Include="AssisstantHome.aspx" />
+    <Content Include="AssistantAddGrade.aspx" />
     <Content Include="AttendanceAssistant.aspx" />
     <Content Include="attendence.aspx" />
     <Content Include="BlurBackground.html" />
@@ -86,6 +87,7 @@
     <Content Include="dropmenu.aspx" />
     <Content Include="Footer.html" />
     <Content Include="FUEevent.html" />
+    <Content Include="GradesSheetAssistant.aspx" />
     <Content Include="HeaderWithText.html" />
     <Content Include="home.aspx" />
     <Content Include="home.html" />
@@ -187,6 +189,13 @@
     <Compile Include="AssisstantMaster.Master.designer.cs">
       <DependentUpon>AssisstantMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="AssistantAddGrade.aspx.cs">
+      <DependentUpon>AssistantAddGrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantAddGrade.aspx.designer.cs">
+      <DependentUpon>AssistantAddGrade.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AttendanceAssistant.aspx.cs">
       <DependentUpon>AttendanceAssistant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -228,6 +237,13 @@
     </Compile>
     <Compile Include="dropmenu.aspx.designer.cs">
       <DependentUpon>dropmenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GradesSheetAssistant.aspx.cs">
+      <DependentUpon>GradesSheetAssistant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GradesSheetAssistant.aspx.designer.cs">
+      <DependentUpon>GradesSheetAssistant.aspx</DependentUpon>
     </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
