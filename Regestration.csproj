@@ -70,6 +70,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddGrade.aspx" />
     <Content Include="App_Data\Project.mdf" />
     <Content Include="App_Data\Project_log.ldf">
       <DependentUpon>Project.mdf</DependentUpon>
@@ -151,6 +152,13 @@
     <Content Include="webImages\wwwwq.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddGrade.aspx.cs">
+      <DependentUpon>AddGrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddGrade.aspx.designer.cs">
+      <DependentUpon>AddGrade.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AssignmentAssistant.aspx.cs">
       <DependentUpon>AssignmentAssistant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
