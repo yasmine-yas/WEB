@@ -4,12 +4,16 @@
         .auto-style6 {
             width: 606px;
         }
+    .auto-style8 {
+        width: 795px;
+        height: 29px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table class="auto-style1">
         <tr>
-            <td class="auto-style6">
+            <td class="auto-style8">
                 <br />
                 <br />
                 <br />
@@ -23,7 +27,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style6">
+            <td class="auto-style8">
                 <asp:Label ID="Label4" runat="server" Font-Names="Arial Black" Font-Size="Medium" ForeColor="#003366" Text="Course"></asp:Label>
             </td>
             <td>
@@ -33,7 +37,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style6">
+            <td class="auto-style8">
                 <asp:Label ID="Label3" runat="server" Font-Names="Arial Black" Font-Size="Medium" ForeColor="#003366" Text="Grade"></asp:Label>
             </td>
             <td>
