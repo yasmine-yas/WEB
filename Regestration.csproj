@@ -102,6 +102,8 @@
     <Content Include="logo2.html" />
     <Content Include="logo3.html" />
     <Content Include="logo4.html" />
+    <Content Include="MyAccount.aspx" />
+    <Content Include="MyAcountt.aspx" />
     <Content Include="NAVIGATION.html" />
     <Content Include="NEATIMAGES.html" />
     <Content Include="Newevents.html" />
@@ -113,13 +115,14 @@
     <Content Include="schedule.aspx" />
     <Content Include="searchICON.html" />
     <Content Include="sliderimage.html" />
+    <Content Include="StudentCard.aspx" />
     <Content Include="Studentprofile.aspx" />
+    <Content Include="StudentSCHEDULE.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="AssistantUpdateSchdule.aspx" />
     <Content Include="Web.config" />
     <Content Include="SignUp.aspx" />
     <Content Include="StudentHome.aspx" />
-    <Content Include="myAccount.aspx" />
     <Content Include="StudentCourses.aspx" />
     <Content Include="StudentGrades.aspx" />
     <Content Include="StudentAttendance.aspx" />
@@ -284,6 +287,20 @@
     <Compile Include="linksWEB.aspx.designer.cs">
       <DependentUpon>linksWEB.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MyAccount.aspx.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount.aspx.designer.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAcountt.aspx.cs">
+      <DependentUpon>MyAcountt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAcountt.aspx.designer.cs">
+      <DependentUpon>MyAcountt.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PERSONlogin.aspx.cs">
       <DependentUpon>PERSONlogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -320,6 +337,13 @@
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentCard.aspx.cs">
+      <DependentUpon>StudentCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentCard.aspx.designer.cs">
+      <DependentUpon>StudentCard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentMaster.Master.cs">
       <DependentUpon>StudentMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -347,13 +371,6 @@
     </Compile>
     <Compile Include="StudentHome.aspx.designer.cs">
       <DependentUpon>StudentHome.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="myAccount.aspx.cs">
-      <DependentUpon>myAccount.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="myAccount.aspx.designer.cs">
-      <DependentUpon>myAccount.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentCourses.aspx.cs">
       <DependentUpon>StudentCourses.aspx</DependentUpon>
@@ -417,6 +434,13 @@
     </Compile>
     <Compile Include="AssistantUpdateSchdule.aspx.designer.cs">
       <DependentUpon>AssistantUpdateSchdule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSCHEDULE.aspx.cs">
+      <DependentUpon>StudentSCHEDULE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentSCHEDULE.aspx.designer.cs">
+      <DependentUpon>StudentSCHEDULE.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
