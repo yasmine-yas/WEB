@@ -70,19 +70,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddAssginmentGradeAssistant.aspx" />
     <Content Include="AddGrade.aspx" />
     <Content Include="App_Data\Project.mdf" />
     <Content Include="App_Data\Project_log.ldf">
       <DependentUpon>Project.mdf</DependentUpon>
     </Content>
-    <Content Include="AssignmentAssistant.aspx" />
     <Content Include="AssignmentStudent.aspx" />
-    <Content Include="AssisstantHome.aspx" />
     <Content Include="AssistantAddGrade.aspx" />
+    <Content Include="AssistantApproveSchedule.aspx" />
+    <Content Include="AssistantAssignmentGrade.aspx" />
     <Content Include="AttendanceAssistant.aspx" />
-    <Content Include="attendence.aspx" />
     <Content Include="BlurBackground.html" />
-    <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
     <Content Include="dropmenu.aspx" />
     <Content Include="Footer.html" />
@@ -112,6 +111,7 @@
     <Content Include="sliderimage.html" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="AssistantUpdateSchdule.aspx" />
     <Content Include="Web.config" />
     <Content Include="SignUp.aspx" />
     <Content Include="StudentHome.aspx" />
@@ -154,6 +154,13 @@
     <Content Include="webImages\wwwwq.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAssginmentGradeAssistant.aspx.cs">
+      <DependentUpon>AddAssginmentGradeAssistant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAssginmentGradeAssistant.aspx.designer.cs">
+      <DependentUpon>AddAssginmentGradeAssistant.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AddGrade.aspx.cs">
       <DependentUpon>AddGrade.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -161,26 +168,12 @@
     <Compile Include="AddGrade.aspx.designer.cs">
       <DependentUpon>AddGrade.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AssignmentAssistant.aspx.cs">
-      <DependentUpon>AssignmentAssistant.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AssignmentAssistant.aspx.designer.cs">
-      <DependentUpon>AssignmentAssistant.aspx</DependentUpon>
-    </Compile>
     <Compile Include="AssignmentStudent.aspx.cs">
       <DependentUpon>AssignmentStudent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AssignmentStudent.aspx.designer.cs">
       <DependentUpon>AssignmentStudent.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AssisstantHome.aspx.cs">
-      <DependentUpon>AssisstantHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AssisstantHome.aspx.designer.cs">
-      <DependentUpon>AssisstantHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="AssisstantMaster.Master.cs">
       <DependentUpon>AssisstantMaster.Master</DependentUpon>
@@ -196,26 +189,26 @@
     <Compile Include="AssistantAddGrade.aspx.designer.cs">
       <DependentUpon>AssistantAddGrade.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AssistantApproveSchedule.aspx.cs">
+      <DependentUpon>AssistantApproveSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantApproveSchedule.aspx.designer.cs">
+      <DependentUpon>AssistantApproveSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssistantAssignmentGrade.aspx.cs">
+      <DependentUpon>AssistantAssignmentGrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantAssignmentGrade.aspx.designer.cs">
+      <DependentUpon>AssistantAssignmentGrade.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AttendanceAssistant.aspx.cs">
       <DependentUpon>AttendanceAssistant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AttendanceAssistant.aspx.designer.cs">
       <DependentUpon>AttendanceAssistant.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="attendence.aspx.cs">
-      <DependentUpon>attendence.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="attendence.aspx.designer.cs">
-      <DependentUpon>attendence.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ComputerArchticrure.aspx.cs">
-      <DependentUpon>ComputerArchticrure.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ComputerArchticrure.aspx.designer.cs">
-      <DependentUpon>ComputerArchticrure.aspx</DependentUpon>
     </Compile>
     <Compile Include="coursepage.aspx.cs">
       <DependentUpon>coursepage.aspx</DependentUpon>
@@ -386,6 +379,13 @@
     <Compile Include="GradedExams.aspx.designer.cs">
       <DependentUpon>GradedExams.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AssistantUpdateSchdule.aspx.cs">
+      <DependentUpon>AssistantUpdateSchdule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantUpdateSchdule.aspx.designer.cs">
+      <DependentUpon>AssistantUpdateSchdule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -400,6 +400,7 @@
     <Content Include="AssisstantMaster.Master" />
     <None Include="packages.config" />
     <Content Include="StudentMaster.Master" />
+    <Content Include="Regestration.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

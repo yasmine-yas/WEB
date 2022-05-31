@@ -4,12 +4,16 @@
         .auto-style6 {
             width: 507px;
         }
+        .auto-style8 {
+            width: 705px;
+            height: 29px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table class="auto-style1">
         <tr>
-            <td class="auto-style6">
+            <td class="auto-style8">
                 <asp:Label ID="Label1" runat="server" Font-Names="Arial Black" Font-Size="Medium" ForeColor="#003366" Text="Select Subject"></asp:Label>
             </td>
             <td>
@@ -19,7 +23,7 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style6">
+            <td class="auto-style8">
                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="StudentUserName" DataSourceID="SqlDataSource2" Font-Names="Arial" Font-Size="Medium" ForeColor="#333333" GridLines="None">
                     <AlternatingRowStyle BackColor="White" />
                     <Columns>
