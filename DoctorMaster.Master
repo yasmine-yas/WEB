@@ -76,10 +76,10 @@
                                     <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/DoctorHome.aspx">Doctor Home</asp:HyperLink>
                                 </td>
                                 <td>
-                                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentList.aspx">Student Names List</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/StudentCourseList.aspx">Student List</asp:HyperLink>
                                 </td>
                                 <td>
-                                    <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/DoctorCourses.aspx">My Courses</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/MyCoursesDoctor.aspx">My Courses</asp:HyperLink>
                                 </td>
                                 <td>
                                     <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/GradedExams.aspx">Graded exams</asp:HyperLink>
@@ -88,7 +88,7 @@
                                     <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/AttendanceSheet.aspx">Attendance Sheet</asp:HyperLink>
                                 </td>
                                 <td class="auto-style7">
-                                    <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/DoctorAssignmentGrade.aspx.cs">Assignments Grade</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/DoctorAssignmentGrade.aspx">Assignments Grade</asp:HyperLink>
                                 </td>
                                 <td>
                                     <asp:HyperLink ID="HyperLink7" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" ForeColor="#0066CC" NavigateUrl="~/DoctorApprove.aspx">Approve schedule</asp:HyperLink>
