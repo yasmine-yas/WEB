@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/StudentMaster.Master" AutoEventWireup="true" CodeBehind="MyAcountt.aspx.cs" Inherits="Regestration.MyAcountt" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style16 {
+            height: 33px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
@@ -21,14 +26,14 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="style13">
+                <td class="auto-style16">
                     <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="#000066" Text="Last Name:"></asp:Label>
                 </td>
-                <td class="style14">
+                <td class="auto-style16">
                     <asp:TextBox ID="txtLname" runat="server" Enabled="False" Font-Names="Arial" Font-Size="Medium" ForeColor="#000066" Width="175px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style16"></td>
+                <td class="auto-style16"></td>
             </tr>
             <tr>
                 <td class="style13">
@@ -54,14 +59,14 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="style13">
+                <td class="auto-style16">
                     <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="#000066" Text=" Address:"></asp:Label>
                 </td>
-                <td class="style14">
+                <td class="auto-style16">
                     <asp:TextBox ID="txtAddress" runat="server" Enabled="False" Font-Names="Arial" Font-Size="Medium" ForeColor="#000066" Width="175px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style16"></td>
+                <td class="auto-style16"></td>
             </tr>
             <tr>
                 <td class="style13">

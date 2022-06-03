@@ -22,7 +22,7 @@ namespace Regestration
             conn.ConnectionString = "Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\Yasmin\\source\\repos\\WEB\\App_Data\\Project.mdf; Integrated Security = True";
            // Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\Yasmin\\source\\repos\\WEB\\App_Data\\Project.mdf; Integrated Security = True
             // create insert statement
-            string strINSERT = String.Format("INSERT INTO [PERSON] values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')", txt_fn.Text, txt_ln.Text, txt_e.Text, txt_UN.Text , txt_DOB.Text, RRL.SelectedValue ,  DDP.SelectedValue, txt_address.Text, txt_PASS.Text, txt_phone.Text , DDP_role.SelectedValue);
+            string strINSERT = String.Format("INSERT INTO [PERSONN] values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')", txt_fn.Text, txt_ln.Text, RRL.SelectedValue, txt_DOB.Text, txt_e.Text, txt_address.Text, txt_phone.Text,      DDP.SelectedValue, txt_UN.Text, txt_PASS.Text,  DDP_role.SelectedValue);
             // create sql command
             SqlCommand cmd = new SqlCommand(strINSERT, conn);
             
