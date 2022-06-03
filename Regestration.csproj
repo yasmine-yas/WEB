@@ -134,7 +134,7 @@
     <Content Include="DoctorHome.aspx" />
     <Content Include="AttendanceSheet.aspx" />
     <Content Include="StudentList.aspx" />
-    <Content Include="GradedExams.aspx" />
+    <Content Include="DoctorGradedExams.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\0c8244cbb55cfc3f786145e4d7cdf9bf.jpg" />
@@ -446,12 +446,12 @@
     <Compile Include="StudentList.aspx.designer.cs">
       <DependentUpon>StudentList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GradedExams.aspx.cs">
-      <DependentUpon>GradedExams.aspx</DependentUpon>
+    <Compile Include="DoctorGradedExams.aspx.cs">
+      <DependentUpon>DoctorGradedExams.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GradedExams.aspx.designer.cs">
-      <DependentUpon>GradedExams.aspx</DependentUpon>
+    <Compile Include="DoctorGradedExams.aspx.designer.cs">
+      <DependentUpon>DoctorGradedExams.aspx</DependentUpon>
     </Compile>
     <Compile Include="AssistantUpdateSchdule.aspx.cs">
       <DependentUpon>AssistantUpdateSchdule.aspx</DependentUpon>
