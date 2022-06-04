@@ -82,11 +82,13 @@
     <Content Include="AssistantApprove.aspx" />
     <Content Include="AssistantApproveSchedule.aspx" />
     <Content Include="AssistantAssignmentGrade.aspx" />
+    <Content Include="AssistantSignOut.aspx" />
     <Content Include="AttendanceAssistant.aspx" />
     <Content Include="BlurBackground.html" />
     <Content Include="coursepage.aspx" />
     <Content Include="DoctorApprove.aspx" />
     <Content Include="DoctorAssignmentGrade.aspx" />
+    <Content Include="DoctorSignOut.aspx" />
     <Content Include="dropmenu.aspx" />
     <Content Include="Footer.html" />
     <Content Include="FUEevent.html" />
@@ -116,6 +118,7 @@
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
     <Content Include="searchICON.html" />
+    <Content Include="SignOutStudent.aspx" />
     <Content Include="sliderimage.html" />
     <Content Include="StudentCard.aspx" />
     <Content Include="StudentCourseList.aspx" />
@@ -229,6 +232,13 @@
     <Compile Include="AssistantAssignmentGrade.aspx.designer.cs">
       <DependentUpon>AssistantAssignmentGrade.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AssistantSignOut.aspx.cs">
+      <DependentUpon>AssistantSignOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantSignOut.aspx.designer.cs">
+      <DependentUpon>AssistantSignOut.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AttendanceAssistant.aspx.cs">
       <DependentUpon>AttendanceAssistant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -263,6 +273,13 @@
     </Compile>
     <Compile Include="DoctorMaster.Master.designer.cs">
       <DependentUpon>DoctorMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorSignOut.aspx.cs">
+      <DependentUpon>DoctorSignOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorSignOut.aspx.designer.cs">
+      <DependentUpon>DoctorSignOut.aspx</DependentUpon>
     </Compile>
     <Compile Include="dropmenu.aspx.cs">
       <DependentUpon>dropmenu.aspx</DependentUpon>
@@ -355,6 +372,13 @@
     </Compile>
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignOutStudent.aspx.cs">
+      <DependentUpon>SignOutStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignOutStudent.aspx.designer.cs">
+      <DependentUpon>SignOutStudent.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentCard.aspx.cs">
       <DependentUpon>StudentCard.aspx</DependentUpon>
