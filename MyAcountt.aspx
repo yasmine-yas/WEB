@@ -107,11 +107,9 @@
             </tr>
             <tr>
                 <td class="style13">
-                    <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Names="Arial Nova Light" Font-Size="Medium" ForeColor="#000066" Text="Your Picture:"></asp:Label>
-                </td>
+                    &nbsp;</td>
                 <td class="style14">
-                    <asp:FileUpload ID="fupPic" runat="server" Enabled="False" />
-                </td>
+                    &nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
@@ -119,8 +117,7 @@
                 <td class="style13">&nbsp;</td>
                 <td class="style14">&nbsp;</td>
                 <td rowspan="5">
-                    <asp:Image ID="imgUserPic" runat="server" Height="100px" Width="100px" />
-                </td>
+                    &nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>

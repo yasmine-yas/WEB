@@ -121,6 +121,7 @@
     <Content Include="searchICON.html" />
     <Content Include="SignOutStudent.aspx" />
     <Content Include="sliderimage.html" />
+    <Content Include="SQL1query.sql" />
     <Content Include="StudentCard.aspx" />
     <Content Include="StudentCourseList.aspx" />
     <Content Include="Studentprofile.aspx" />

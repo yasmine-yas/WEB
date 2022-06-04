@@ -62,7 +62,7 @@
                         <table class="auto-style2">
                             <tr>
                                 <td class="auto-style3">
-                                    <asp:Image ID="imguserpic" runat="server" Height="148px" Width="247px" />
+                                    <asp:Image ID="imguserpic" runat="server" Height="148px" Width="247px" ImageUrl="~/webImages/ImageHandler (2).jpg" />
                                 </td>
                                 <td>
                                     <asp:Label ID="lblgMsg" runat="server" Font-Bold="True" Font-Names="Arial Black" ForeColor="#000066"></asp:Label>

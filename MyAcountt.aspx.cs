@@ -20,7 +20,7 @@ namespace Regestration
 
                 ViewState["U"] = username;
 
-                imgUserPic.ImageUrl = "~/userPic/" + username + ".jpg";
+                //imgUserPic.ImageUrl = "~/userPic/" + username + ".jpg";
 
                 // 1- Create Connection Object
                 SqlConnection conn = new SqlConnection();
@@ -63,7 +63,7 @@ namespace Regestration
             txtAddress.Enabled = true;
             txtPhone.Enabled = true;
             ddlCountry.Enabled = true;
-            fupPic.Enabled = true;
+            //fupPic.Enabled = true;
 
             btnSave.Visible = true;
         }
@@ -94,8 +94,8 @@ namespace Regestration
             conn.Open();
             cmdUpdate.ExecuteNonQuery();
 
-            if (fupPic.HasFile)
-                fupPic.SaveAs(Server.MapPath("userPic") + "\\" + txtUsername.Text + ".jpg");
+            //if (fupPic.HasFile)
+              //  fupPic.SaveAs(Server.MapPath("userPic") + "\\" + txtUsername.Text + ".jpg");
 
             conn.Close();
 
