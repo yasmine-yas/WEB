@@ -82,6 +82,7 @@
     <Content Include="AssistantApprove.aspx" />
     <Content Include="AssistantApproveSchedule.aspx" />
     <Content Include="AssistantAssignmentGrade.aspx" />
+    <Content Include="AssistantHome.aspx" />
     <Content Include="AssistantSignOut.aspx" />
     <Content Include="AttendanceAssistant.aspx" />
     <Content Include="BlurBackground.html" />
@@ -165,8 +166,10 @@
     <Content Include="webImages\OIP.jpg" />
     <Content Include="webImages\qqqqqqqqqqq.jpg" />
     <Content Include="webImages\Screen-Shot-2017-11-26-at-3.43.41-AM-1347x800.jpg" />
+    <Content Include="webImages\ssssssss.jpeg" />
     <Content Include="webImages\various-book-books-college.jpg" />
     <Content Include="webImages\wwwwq.jpg" />
+    <Content Include="webImages\wwwwwwwwwwwwww.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddAssginmentGradeAssistant.aspx.cs">
@@ -231,6 +234,13 @@
     </Compile>
     <Compile Include="AssistantAssignmentGrade.aspx.designer.cs">
       <DependentUpon>AssistantAssignmentGrade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssistantHome.aspx.cs">
+      <DependentUpon>AssistantHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantHome.aspx.designer.cs">
+      <DependentUpon>AssistantHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="AssistantSignOut.aspx.cs">
       <DependentUpon>AssistantSignOut.aspx</DependentUpon>

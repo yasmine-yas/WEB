@@ -54,7 +54,7 @@
             <table class="auto-style6" style="background-color: #999999">
                 <tr>
                     <td class="auto-style5">
-                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AssisstantHome.aspx" Font-Names="Arial" Font-Size="Medium" ForeColor="#336699">Home</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AssistantHome.aspx" Font-Names="Arial" Font-Size="Medium" ForeColor="#336699">Home</asp:HyperLink>
                     </td>
                     <td class="auto-style2">
                         <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/AssistantUpdateSchdule.aspx" Font-Names="Arial" Font-Size="Medium" ForeColor="#336699">Student&#39;s schedule</asp:HyperLink>

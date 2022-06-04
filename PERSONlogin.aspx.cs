@@ -26,7 +26,7 @@ namespace Regestration
             
             //2- create sql seelect statement
 
-            string strSelect = "SELECT * FROM [Person]  "
+            string strSelect = "SELECT * FROM [PERSONN]  "
             + " WHERE Username = '" + txt_UN.Text + "' AND "
             + " Password = '" + txt_PASS.Text + "'";
 
@@ -73,7 +73,7 @@ namespace Regestration
 
                 else
                      if (txt_UN.Text == "Assistant22")
-                    Response.Redirect("~/AssisstantHome.aspx");
+                    Response.Redirect("~/AssistantHome.aspx");
             }
 
             else
