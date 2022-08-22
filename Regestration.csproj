@@ -93,6 +93,7 @@
     <Content Include="DoctorSignOut.aspx" />
     <Content Include="dropmenu.aspx" />
     <Content Include="Footer.html" />
+    <Content Include="FSignIn.aspx" />
     <Content Include="FUEevent.html" />
     <Content Include="GeneralSQL.aspx" />
     <Content Include="GradesSheetAssistant.aspx" />
@@ -121,6 +122,7 @@
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
     <Content Include="searchICON.html" />
+    <Content Include="SignIINN.aspx" />
     <Content Include="SignOutStudent.aspx" />
     <Content Include="sliderimage.html" />
     <Content Include="SQL1query.sql" />
@@ -301,6 +303,13 @@
     <Compile Include="dropmenu.aspx.designer.cs">
       <DependentUpon>dropmenu.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FSignIn.aspx.cs">
+      <DependentUpon>FSignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FSignIn.aspx.designer.cs">
+      <DependentUpon>FSignIn.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GeneralSQL.aspx.cs">
       <DependentUpon>GeneralSQL.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -392,6 +401,13 @@
     </Compile>
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIINN.aspx.cs">
+      <DependentUpon>SignIINN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIINN.aspx.designer.cs">
+      <DependentUpon>SignIINN.aspx</DependentUpon>
     </Compile>
     <Compile Include="SignOutStudent.aspx.cs">
       <DependentUpon>SignOutStudent.aspx</DependentUpon>

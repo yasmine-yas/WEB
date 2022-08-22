@@ -43,8 +43,8 @@ namespace Regestration
 
             //            tbl.Load(cmdSelect.ExecuteReader());
 
-           // gdvResult.DataSource = tbl;
-            // gdvResult.DataBind();
+            gdv.DataSource = tbl;
+             gdv.DataBind();
 
             // chtResult.DataSource = tbl;
             //chtResult.DataBind();

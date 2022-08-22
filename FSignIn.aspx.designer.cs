@@ -11,43 +11,43 @@ namespace Regestration
 {
 
 
-    public partial class GeneralSQL
+    public partial class FSignIn
     {
 
         /// <summary>
-        /// Label1 control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtQuery control.
+        /// Name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtQuery;
+        protected global::System.Web.UI.WebControls.Label Name;
 
         /// <summary>
-        /// btnExecute control.
+        /// txtName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnExecute;
+        protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
-        /// gdv control.
+        /// Name0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gdv;
+        protected global::System.Web.UI.WebControls.Label Name0;
     }
 }
